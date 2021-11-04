@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>961</width>
+    <height>292</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Quality Factors</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(0, 170, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>220</y>
+      <width>351</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Store Quality Factors in Data base</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>40</y>
+      <width>41</width>
+      <height>33</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>881</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Autonomous body exists to deal with hardware quality control? ( 0 for No, 1 for Yes)</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_5">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>80</y>
+      <width>41</width>
+      <height>33</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_6">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>130</y>
+      <width>41</width>
+      <height>33</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>881</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Autonomous division exists to deal with software validation &amp; verification? ( 0 for No, 1 for Yes)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>881</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ownership of problems properly defined?(0 for No, 1 for Yes)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>IOT_ ID:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_9">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>10</y>
+      <width>161</width>
+      <height>33</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>881</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ownership of different controls,properly defined?(0 for No, 1 for Yes)</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_7">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>170</y>
+      <width>41</width>
+      <height>33</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>-200</y>
+      <width>991</width>
+      <height>681</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../Users/yuvar/Downloads/johannes-plenio-2TQwrtZnl08-unsplash.jpg</pixmap>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>lineEdit_4</zorder>
+   <zorder>label_4</zorder>
+   <zorder>lineEdit_5</zorder>
+   <zorder>lineEdit_6</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_7</zorder>
+   <zorder>label_5</zorder>
+   <zorder>lineEdit_9</zorder>
+   <zorder>label_8</zorder>
+   <zorder>lineEdit_7</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

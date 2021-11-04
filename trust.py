@@ -1,0 +1,101 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'trust.ui'
+#
+# Created by: PyQt5 UI code generator 5.12.1
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(800, 450)
+        MainWindow.setStyleSheet("color: rgb(0, 85, 255);")
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.pushButton = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton.setGeometry(QtCore.QRect(230, 80, 321, 51))
+        font = QtGui.QFont()
+        font.setFamily("Bahnschrift SemiLight")
+        font.setPointSize(12)
+        self.pushButton.setFont(font)
+        self.pushButton.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.pushButton.setObjectName("pushButton")
+        self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_2.setGeometry(QtCore.QRect(230, 150, 321, 51))
+        font = QtGui.QFont()
+        font.setFamily("Bahnschrift SemiLight")
+        font.setPointSize(12)
+        self.pushButton_2.setFont(font)
+        self.pushButton_2.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.pushButton_2.setObjectName("pushButton_2")
+        self.pushButton_3 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_3.setGeometry(QtCore.QRect(230, 220, 321, 51))
+        font = QtGui.QFont()
+        font.setFamily("Bahnschrift SemiLight")
+        font.setPointSize(12)
+        self.pushButton_3.setFont(font)
+        self.pushButton_3.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.pushButton_3.setObjectName("pushButton_3")
+        self.pushButton_4 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_4.setGeometry(QtCore.QRect(230, 290, 321, 51))
+        font = QtGui.QFont()
+        font.setFamily("Bahnschrift SemiLight")
+        font.setPointSize(12)
+        self.pushButton_4.setFont(font)
+        self.pushButton_4.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.pushButton_4.setObjectName("pushButton_4")
+        self.pushButton_5 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_5.setGeometry(QtCore.QRect(230, 10, 321, 51))
+        font = QtGui.QFont()
+        font.setFamily("Bahnschrift SemiLight")
+        font.setPointSize(12)
+        self.pushButton_5.setFont(font)
+        self.pushButton_5.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.pushButton_5.setObjectName("pushButton_5")
+        self.pushButton_6 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_6.setGeometry(QtCore.QRect(230, 360, 321, 51))
+        font = QtGui.QFont()
+        font.setFamily("Bahnschrift SemiLight")
+        font.setPointSize(12)
+        self.pushButton_6.setFont(font)
+        self.pushButton_6.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.pushButton_6.setObjectName("pushButton_6")
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(-6, -5, 811, 461))
+        font = QtGui.QFont()
+        font.setFamily("Bahnschrift SemiLight")
+        font.setPointSize(12)
+        self.label.setFont(font)
+        self.label.setText("")
+        self.label.setPixmap(QtGui.QPixmap("../Users/yuvar/Desktop/abstract-iot-800x450.jpg"))
+        self.label.setObjectName("label")
+        self.label.raise_()
+        self.pushButton.raise_()
+        self.pushButton_2.raise_()
+        self.pushButton_3.raise_()
+        self.pushButton_4.raise_()
+        self.pushButton_5.raise_()
+        self.pushButton_6.raise_()
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.statusbar = QtWidgets.QStatusBar(MainWindow)
+        self.statusbar.setObjectName("statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "Trust Prediction Based on Extreme Learning"))
+        self.pushButton.setText(_translate("MainWindow", "Compatibility Factors"))
+        self.pushButton_2.setText(_translate("MainWindow", "Quality Factors"))
+        self.pushButton_3.setText(_translate("MainWindow", "MLP Classifier"))
+        self.pushButton_4.setText(_translate("MainWindow", "QDA Classifier"))
+        self.pushButton_5.setText(_translate("MainWindow", "Scalability & Heteroginity factors"))
+        self.pushButton_6.setText(_translate("MainWindow", "Accuracy of MLPC vs. QDA"))
+
+

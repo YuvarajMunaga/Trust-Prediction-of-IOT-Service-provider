@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>928</width>
+    <height>311</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Compatibility Factors</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(0, 170, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>250</y>
+      <width>401</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Store Compatibility Factors in Data base</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>40</y>
+      <width>31</width>
+      <height>33</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>80</y>
+      <width>31</width>
+      <height>33</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_5">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>130</y>
+      <width>31</width>
+      <height>33</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_6">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>170</y>
+      <width>31</width>
+      <height>33</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>821</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Any compatibility issues between different hardware devices?(0 for yes 1 for No)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>831</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Any compatibility issues between hardware and software??(0 for yes 1 for No)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>831</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Functional capabilities of different hardware components, clearly defined?(0 for yes 1 for No)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>831</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Any compatibility issues between different software components?(0 for yes 1 for No)</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_9">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>10</y>
+      <width>161</width>
+      <height>33</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>IOT_ ID:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_7">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>210</y>
+      <width>31</width>
+      <height>33</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>210</y>
+      <width>831</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Functional requirements of  software components, clearly defined?(0 for yes 1 for No)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-580</x>
+      <y>-190</y>
+      <width>1531</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../Users/yuvar/Desktop/abstract-technology-background-with-big-data-internet-connection-abstract-sense-of-science-and-technology-analytics-concept-graphic-design-illustration-vector.jpg</pixmap>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>lineEdit_3</zorder>
+   <zorder>lineEdit_4</zorder>
+   <zorder>lineEdit_5</zorder>
+   <zorder>lineEdit_6</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_6</zorder>
+   <zorder>lineEdit_9</zorder>
+   <zorder>label_7</zorder>
+   <zorder>lineEdit_7</zorder>
+   <zorder>label_8</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,20 @@
+.open trust1
+
+
+CREATE TABLE qlty
+(
+iid varchar(6) NOT NULL,
+s1 char(1),s2 char(1),s3 char(1),s4 char(1)
+);
+
+CREATE TABLE scale
+(
+iid varchar(6) NOT NULL,
+s1 char(1),s2 char(1),s3 char(1),s4 char(1)
+);
+
+CREATE TABLE comp
+(
+iid varchar(6) NOT NULL,
+s1 char(1),s2 char(1),s3 char(1),s4 char(1),s5 char(1)
+);
